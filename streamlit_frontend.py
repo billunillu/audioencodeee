@@ -6,7 +6,7 @@ import time
 
 API_URL = "http://localhost:5001"  # adjust if running Flask elsewhere
 
-st.title("🎶 Ultrasonic Message Encoder/Decoder")
+st.title("🎶 Sound Message Encoder/Decoder")
 
 tab1, tab2 = st.tabs(["step 1, 🔊 Encode Message", "step 2, 🎧 Decode from Microphone"])
 
