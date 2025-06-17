@@ -4,9 +4,9 @@ import streamlit as st
 import requests
 import time
 
-API_URL = "http://localhost:5001"  # adjust if running Flask elsewhere
+API_URL = "https://audiofun-187499103525.us-central1.run.app"  # adjust if running Flask elsewhere
 
-st.title("🎶 Sound Message Encoder/Decoder")
+st.title("🎶 Sound Message Encoder/Decoder Demo")
 
 tab1, tab2 = st.tabs(["step 1, 🔊 Encode Message", "step 2, 🎧 Decode from Microphone"])
 
