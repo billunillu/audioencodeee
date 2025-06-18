@@ -1,3 +1,4 @@
 streamlit
 bokeh
 streamlit-bokeh-events
+audio-recorder-streamlit
