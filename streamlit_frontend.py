@@ -15,7 +15,7 @@ API_URL = "https://audiofun-187499103525.us-central1.run.app"  # adjust if runni
 
 st.title("🎶 Hidden Message Encoder/Decoder")
 
-tab1, tab2, tab3 = st.tabs(["step 1, 🔊 Encode Message", "step 2 OPTIONAL!!! 🎤 Record Song","step 3, 🎧 Decode from Microphone"])
+tab1, tab2, tab3 = st.tabs(["step 1, 🔊 Encode Message", "step 2 OPTIONAL!!! 🎤 Record Song","step 3, 🎧 Decode from Song"])
 
 with tab1:
     st.header("Encode a Message into a Song")
