@@ -27,7 +27,7 @@ with tab1:
             files = {"song": uploaded_song}
             data = {"message": message}
             with st.spinner("Encoding..."):
-                response = requests.post(f"{API_URL}/encode", files=files, data=data)
+                response = requests.post(f"{API_URL}/encode2", files=files, data=data)
             if response.status_code == 200:
                 st.success("✅ Encoded successfully!")
                 encoded_bytes = BytesIO(response.content)
